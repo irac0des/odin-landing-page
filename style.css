@@ -2,12 +2,15 @@
 
 body {
     font-family: Roboto;
+    font-size: 18px;
+    color: #e5e7eb;
     margin: 0;
     padding: 0;
 }
 
 .hero {
     background-color: #1F2937;
+    padding: 1em 10em;
 }
 
 .header-container {
@@ -16,8 +19,8 @@ body {
     align-items: center;
 }
 
-.header-container h2 {
-    font-size: 24px;
+.header-container .logo {
+    font-size: 1.34rem;
     color: #F9FAF8;
 }
 
@@ -31,4 +34,35 @@ body {
 
 .nav-links ul li a{
     text-decoration: none;
+    color: #e5e7eb;
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4em 0;
+}
+
+.hero-container h1 {
+    font-size: 2.67rem;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-container button{
+    width: 110px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: #3882F6;
+}
+
+.information h2 {
+    font-size: 2rem;
+    color: #1F2937;
+    font-weight: 900;
 }
